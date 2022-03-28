@@ -7,6 +7,10 @@ body {
   color: #fff;
   max-width: 1200px;
   margin: 0 auto;
+  background-image: url(./assets/camera.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .main-container {
@@ -33,7 +37,7 @@ body {
   font-size: 24px;
   line-height: 1.33;
   font-weight: 300;
-  color: #83979e;
+  color: #b7c4c9;
   max-width: 25ch;
 }
 
@@ -67,4 +71,42 @@ body {
   background-color: transparent;
   border: 2px solid #3f9e9d;
   color: #3f9e9d;
+}
+
+.container-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.links h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.links h4::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-image: linear-gradient(#b7c4c9, #fff);
+  border: 2px solid #b7c4c9;
+  margin-right: 10px;
+}
+
+.links p {
+  color: #b7c4c9;
+  font-weight: 300;
+  margin-left: 25px;
+}
+
+.links a {
+  color: #b7c4c9;
+  text-decoration: none;
+  border-bottom: 2px solid #b7c4c9;
+  display: inline-block;
+  margin-left: 25px;
 }
